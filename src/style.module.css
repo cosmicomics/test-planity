@@ -1,0 +1,27 @@
+.container {
+  position: absolute;
+  padding: 0px 10px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.eventPositioner {
+  position: absolute;
+  display: flex;
+}
+
+.event {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui;
+  font-weight: 600;
+  font-size: 11px;
+  border: solid 1px;
+  background-image: linear-gradient(to bottom right, pink, magenta);
+  background-attachment: fixed;
+  margin: 1px;
+}
